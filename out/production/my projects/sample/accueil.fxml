@@ -7,8 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane fx:id="accueil_scene_scene" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<BorderPane fx:id="accueil_scene" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <left>
       <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
          <children>
@@ -18,7 +17,7 @@
                   <Font name="FontAwesome" size="16.0" />
                </font>
             </Text>
-            <Button layoutX="56.0" layoutY="186.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #598ff;" text="Produit">
+            <Button fx:id="produit_btn" layoutX="56.0" layoutY="186.0" mnemonicParsing="false" onAction="#produit_OnClick" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #598ff;" text="Produit">
                <font>
                   <Font size="16.0" />
                </font>
@@ -52,12 +51,12 @@
    <right>
       <AnchorPane prefHeight="500.0" prefWidth="700.0" BorderPane.alignment="CENTER">
          <children>
-            <Button layoutX="57.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="117.0" text="Button" />
-            <Button layoutX="212.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="112.0" text="Button" />
-            <Button layoutX="373.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="113.0" text="Button" />
-            <Button layoutX="57.0" layoutY="313.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="117.0" text="Button" />
-            <Button layoutX="212.0" layoutY="313.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="Button" />
-            <Button layoutX="373.0" layoutY="313.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="113.0" text="Button" />
+            <Button layoutX="39.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="137.0" text="Calculer ordonnance" />
+            <Button layoutX="212.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="112.0" text="Visualiser stock" />
+            <Button layoutX="373.0" layoutY="170.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="113.0" text="Afficher Produits" />
+            <Button layoutX="39.0" layoutY="312.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="140.0" text="Afficher entrées" />
+            <Button layoutX="212.0" layoutY="313.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="117.0" text="Afficher sorties" />
+            <Button layoutX="373.0" layoutY="313.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="113.0" text="Total sortie" />
          </children>
       </AnchorPane>
    </right>

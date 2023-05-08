@@ -1,4 +1,4 @@
 package sample.produit;
 
-public class ProuitUi {
+public class ProduitUi {
 }
