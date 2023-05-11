@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dlsc.formsfx.core" type="repository">
+    <properties maven-id="com.dlsc.formsfx:formsfx-core:11.6.0" />
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/formsfx-core-11.6.0.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-controls-17.0.1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-controls-17.0.1-linux.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-graphics-17.0.1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-graphics-17.0.1-linux.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-base-17.0.1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-base-17.0.1-linux.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-fxml-17.0.1.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/bin/https:/repo.spring.io/ui/native/plugins-release/de/jensd/fontawesomefx-commons/9.0.0/fontawesomefx-commons-9.0.0.jar/javafx-fxml-17.0.1-linux.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
