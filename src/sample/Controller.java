@@ -1,16 +1,12 @@
 package sample;
 
-import com.sun.javafx.stage.EmbeddedWindow;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Text;
-import sample.produit.*;
-
 import java.io.IOException;
 import java.util.Objects;
 
@@ -37,7 +33,6 @@ public class Controller {
         accueil_scene = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("accueil.fxml")));
         authentification_scene.getChildren().removeAll();
         authentification_scene.getChildren().setAll(accueil_scene);
-
     }
     @FXML
     public void produit_OnClick(ActionEvent e) throws IOException{

@@ -9,7 +9,7 @@
 
 <BorderPane fx:id="accueil_scene" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <left>
-      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #0598ff;" BorderPane.alignment="CENTER">
          <children>
             <FontAwesomeIconView fill="WHITE" glyphName="USER" layoutX="84.0" layoutY="80.0" size="25.0" wrappingWidth="16.0" AnchorPane.bottomAnchor="424.1428565979004" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="62.85714340209961" />
             <Text fill="WHITE" layoutX="33.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom Utilisateur">
